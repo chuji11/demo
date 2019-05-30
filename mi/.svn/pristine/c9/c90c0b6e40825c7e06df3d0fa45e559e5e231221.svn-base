@@ -170,7 +170,7 @@ a{
    display: inline-block;
    vertical-align: middle;
 }
-#btn-zh input,#btn-sj input{
+#btn input{
    width:348px;height:50px;
    margin-top:10px;
    background-color: #ff6700;

@@ -34,17 +34,17 @@
               <!-- 用户名登录 -->
               <form action="#" id="login" style="display:block">
                 <div>
-                  <input type="text" id="name-zh" placeholder="邮箱/手机号码/小米ID" />
+                  <input type="text" placeholder="邮箱/手机号码/小米ID" />
 
-                  <input type="password" id="pwd-zh" placeholder="密码" />
+                  <input type="password" placeholder="密码" />
                 </div>
 
                 <!-- 错误提示 -->
-                <div class="un-box" id="notice" style="display: none">
+                <div class="un-box" id="notice" style="display: block">
                   <i class="icon-error"></i>
                   <span>密码错误</span>
                 </div>
-                <div id="btn-zh">
+                <div id="btn">
                   <input type="submit" value="登录" />
                 </div>
               </form>
@@ -62,13 +62,7 @@
                     <a href="javascript:;">获取验证码</a>
                   </div>
                 </div>
-                <!-- 错误提示 -->
-                <div class="un-box" id="notice-sj" style="display: none">
-                  <i class="icon-error"></i>
-                  <span>密码错误</span>
-                </div>
-
-                <div id="btn-sj">
+                <div id="btn">
                   <input type="submit" value="立即登录/注册" />
                 </div>
               </form>
@@ -180,56 +174,19 @@
         }
       });
 
-      //获取四个icon的href
       $.ajax({
         type: "post",
         url: "../js/ahref.json",
         cahe: false,
         dataType: "json",
         success: function(res) {
-          var i = 0;
-          for (var key in res) {
-            $(".icon>a")
-              .eq(i)
-              .attr("href", res[key]);
+          var i=0
+          for(var key in res){
+            $(".icon>a").eq(i).attr("href",res[key]);
             i++;
           }
         }
       });
-
-      //点击登录
-      $("#btn-zh").click(function(){
-        var namezh=$("#name-zh").val();
-        var pwdzh=$("#pwd-zh").val();
-        var reg=/(^\w+((-w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$)|(^1\d{10}$)|(^\d{3,}$)|(^\++\d{2,}$)/;
-        if(namezh==""){
-          $("#notice").css("display",'block').children("span").html("请输入账号");
-          return;
-        }else if(pwdzh==''){
-          $("#notice").css('display','block').children('span').html('请输入密码');
-          return;
-        }else if(!reg.test(namezh)){
-          $("#notice").css("display",'block').children("span").html("用户名不正确");
-          return;
-        }else if(!/^[a-zA-Z0-8_-]{6,}$/.test(pwdzh)){
-          $("#notice").css("display",'block').children("span").html("用户名或密码不正确");
-          return;
-        };
-        $.ajax({
-          type: "post",
-          url: "../login.php",
-          data:{
-            "name":namezh,
-            'pwd':pwdzh
-          },
-          cahe: false,
-          dataType: "json",
-          success: function(res){
-            console.log(res)
-          }
-        })
-      })
-
     });
   </script>
 </html>
