@@ -11,7 +11,7 @@
   <body>
     <div class="header">
       <div class="header-box">
-        <a href="#" class="logo">
+        <a href="../../home page/homepage.html" class="logo">
           <img src="../images/milogo.png" alt="" />
           <div>
             <p>小米商城</p>
@@ -201,7 +201,7 @@
       $("#btn-zh").click(function(){
         var namezh=$("#name-zh").val();
         var pwdzh=$("#pwd-zh").val();
-        var reg=/(^\w+((-w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$)|(^1\d{10}$)|(^\d{3,}$)|(^\++\d{2,}$)/;
+        var reg=/(^\w+((-w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$)|(^1\d{10}$)|(^\d{3,}$)|(^\w{3,}$)/;
         if(namezh==""){
           $("#notice").css("display",'block').children("span").html("请输入账号");
           return;
@@ -217,7 +217,7 @@
         };
         $.ajax({
           type: "post",
-          url: "../login.php",
+          url: "../js/login.php",
           data:{
             "name":namezh,
             'pwd':pwdzh
@@ -226,6 +226,12 @@
           dataType: "json",
           success: function(res){
             console.log(res)
+            if(res.code==200){
+              alert(res.message);
+              location.href="../../home page/homepage.html"
+            }else{
+              $("#notice").css("display",'block').children("span").html("用户名或密码不正确");
+            }
           }
         })
       })

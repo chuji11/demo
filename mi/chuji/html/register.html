@@ -30,7 +30,7 @@
                   <i class="icon"></i>
                 </div>
                 <div class="dis-country" style="display:none;">
-                  <input type="text" class="seach" />
+                  <input type="text" class="seach" id="seach-con"/>
                   <ul class="">
                     <!-- <li></li> -->
                   </ul>
@@ -54,7 +54,7 @@
               </div>
               <!-- 地区和地区的号码 -->
               <div class="phone-box" style="display:none">
-                <input type="text" class="seach" />
+                <input type="text" class="seach" id="seach-ph" />
                 
                   <ul></ul>
                
@@ -120,7 +120,7 @@
       $(".def-country").click(function() {
         $(".dis-country").css("display",'block');
        
-
+        $("#seach-con").focus()
         //ajax请求接收国家地区信息
         $.ajax({
           type: "post",
@@ -138,11 +138,16 @@
           }
         });
       });
-
+      // $("#seach-con").on("blur",function(){
+      //   $(".dis-country").css("display",'none');
+      // })
+      // $("#seach-ph").on("blur",function(){
+      //   $(".phone-box").css("display",'none');
+      // })
       $(".result-id").click(function() {
         $(".phone-box").css("display",'block');
-       
-
+        
+        $("#seach-ph").focus()
         //ajax请求接收国家地区信息
         $.ajax({
           type: "post",
@@ -188,14 +193,18 @@
         index=$(this).index();
         $(".result-country").html($(this).text());
         $(".dis-country").css("display",'none');
+        $
         return false;
       });
 
       $(".phone-box>ul").on("click","li",function(){
+       
+        console.log("haha")
         index=$(this).index();
         console.log($(".result-id>span"))
         $(".result-id>span").html($(this).children("span").text());
         $(".phone-box").css("display",'none');
+        $("#seach-ph").unbind('blur')
         return false;
       });
 
