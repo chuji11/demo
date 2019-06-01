@@ -1,0 +1,506 @@
+id: 1p-5.0.r5/0
+type: file
+count: 0
+text: 2 446812 22359 146010 2a31dca112f26923b51676cb764c58d5 f597f59f955cda06e5d7a79342d9e0c22b5ec6d2 4-4/_1q
+cpath: /chuji/css/bootstrap.css
+copyroot: 0 /
+
+id: 1t-5.0.r5/193
+type: file
+count: 0
+text: 4 179593 2138 3127 5eb41356e978f88f1b6ed94824a4b90c 538fbd3b5c95f574db138ebc6603f80e389592a3 4-4/_1u
+cpath: /chuji/css/iconfont.css
+copyroot: 0 /
+
+id: 1h-5.0.r5/384
+type: file
+count: 0
+text: 4 173825 1141 4107 65ada9bee700c93a8a246c6b401d57a3 2565ed892036389cea88da1c13abe875b5a58d52 4-4/_1i
+cpath: /chuji/css/login.css
+copyroot: 0 /
+
+id: b-5.0.r5/572
+type: file
+count: 0
+text: 4 185405 1212 4292 371f87b0b3de55afeff05105b1fb0de4 9450fc4e60a3134ebb3b29c4661ce720f0b2b2f5 4-4/_d
+cpath: /chuji/css/register.css
+copyroot: 0 /
+
+id: 1b-5.0.r5/761
+type: file
+count: 0
+text: 4 167301 1271 4467 98616a756138c25ffd219bfe1cfa99bd 4c6ed79b8769668d959d6794c4495d185b2e44a9 4-4/_1c
+cpath: /chuji/css/respwd.css
+copyroot: 0 /
+
+PLAIN
+K 13
+bootstrap.css
+V 16
+file 1p-5.0.r5/0
+K 12
+iconfont.css
+V 18
+file 1t-5.0.r5/193
+K 9
+login.css
+V 18
+file 1h-5.0.r5/384
+K 12
+register.css
+V 17
+file b-5.0.r5/572
+K 10
+respwd.css
+V 18
+file 1b-5.0.r5/761
+END
+ENDREP
+id: 2-5.0.r5/1169
+type: dir
+count: 0
+text: 5 950 206 0 fb59255cb589225bcb76fabe3456e629
+cpath: /chuji/css
+copyroot: 0 /
+
+id: 15-5.0.r5/1290
+type: file
+count: 0
+text: 2 3751060 2702 8429 31103ad158e19b978f7e730ff5ac959b 65c50db528a5abe06426b1a20735feaf1f2a0d9b 4-4/_16
+cpath: /chuji/font/demo.css
+copyroot: 0 /
+
+id: 1d-5.0.r5/1480
+type: file
+count: 0
+text: 4 168585 3109 11715 fc6b2562ab217a6dcf4b9ab7e700b292 e494ea3cd5ac71baeb089a6696d7768c5bcd3255 4-4/_1e
+cpath: /chuji/font/demo_index.html
+copyroot: 0 /
+
+id: t-5.0.r5/1677
+type: file
+count: 0
+text: 4 179593 2138 3127 5eb41356e978f88f1b6ed94824a4b90c 538fbd3b5c95f574db138ebc6603f80e389592a3 4-4/_u
+cpath: /chuji/font/iconfont.css
+copyroot: 0 /
+
+id: o-5.0.r5/1868
+type: file
+count: 0
+text: 4 190690 1922 3284 36dfa6742d118eae666be96abec98e5e 663a8cb10ba33799708f210d400b38ba2ee5614f 4-4/_p
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/font/iconfont.eot
+copyroot: 0 /
+
+id: 8-5.0.r5/2114
+type: file
+count: 0
+text: 4 181761 3631 9576 2c926ac2e7e4c2820052303d4baedff9 925f67ae71783842c3361c3885c51fbdc670c309 4-4/_a
+cpath: /chuji/font/iconfont.js
+copyroot: 0 /
+
+id: 19-5.0.r5/2304
+type: file
+count: 0
+text: 4 164161 3127 8544 8502e01e167ee4e466f622c09a025a7e 4e5e6e89c1c104706ee773a23015053dc7ff0e6b 4-4/_1a
+cpath: /chuji/font/iconfont.svg
+copyroot: 0 /
+
+id: 13-5.0.r5/2497
+type: file
+count: 0
+text: 4 9264 1872 3116 e309973be291e3b32d6590b78fc4a520 ab0eb56842ee5c710d25c983a250e83ea5b22f00 4-4/_14
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/font/iconfont.ttf
+copyroot: 0 /
+
+id: 1f-5.0.r5/2743
+type: file
+count: 0
+text: 4 171707 2105 2112 da6b88c5a2212a5599e7234691c5c9a4 3b73d6782f7422b114f718af3ebabc8cf1a2c1d5 4-4/_1g
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/font/iconfont.woff
+copyroot: 0 /
+
+id: h-5.0.r5/2992
+type: file
+count: 0
+text: 4 186630 1649 1632 e90aef0828594c849e4e50e46ce5b242 29c83a9f6274f8ebec7fe69bfa2e4b56c06e3d0c 4-4/_i
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/font/iconfont.woff2
+copyroot: 0 /
+
+PLAIN
+K 8
+demo.css
+V 19
+file 15-5.0.r5/1290
+K 15
+demo_index.html
+V 19
+file 1d-5.0.r5/1480
+K 12
+iconfont.css
+V 18
+file t-5.0.r5/1677
+K 12
+iconfont.eot
+V 18
+file o-5.0.r5/1868
+K 11
+iconfont.js
+V 18
+file 8-5.0.r5/2114
+K 12
+iconfont.svg
+V 19
+file 19-5.0.r5/2304
+K 12
+iconfont.ttf
+V 19
+file 13-5.0.r5/2497
+K 13
+iconfont.woff
+V 19
+file 1f-5.0.r5/2743
+K 14
+iconfont.woff2
+V 18
+file h-5.0.r5/2992
+END
+ENDREP
+id: 4-5.0.r5/3640
+type: dir
+count: 0
+text: 5 3240 387 0 120590f5db4975307b472bc0155d984f
+cpath: /chuji/font
+copyroot: 0 /
+
+id: z-5.0.r5/3763
+type: file
+count: 0
+text: 4 2972 1654 5634 0affd768de7fb5524833cc71cb5992b8 3a8244289ed6f91d3a80eb7bc8f256c8ead56d19 4-4/_10
+cpath: /chuji/html/login.html
+copyroot: 0 /
+
+id: 1n-5.0.r5/3951
+type: file
+count: 0
+text: 4 176766 2268 7907 b50289ea6fa34f417002f198e859d26d 6f0228f0def6a88e154ab38f7a9e7ed8a3937ab2 4-4/_1o
+cpath: /chuji/html/register.html
+copyroot: 0 /
+
+id: q-5.0.r5/4145
+type: file
+count: 0
+text: 4 192625 2125 6239 951c139951220d94b303cde832019d0e 4b49f4244285c59a2b998797851d0ab87fcbc87f 4-4/_s
+cpath: /chuji/html/resPwd.html
+copyroot: 0 /
+
+PLAIN
+K 10
+login.html
+V 18
+file z-5.0.r5/3763
+K 13
+register.html
+V 19
+file 1n-5.0.r5/3951
+K 11
+resPwd.html
+V 18
+file q-5.0.r5/4145
+END
+ENDREP
+id: 5-5.0.r5/4477
+type: dir
+count: 0
+text: 5 4335 129 0 728f74fe8bb7bfa12e213f91a56aa9a7
+cpath: /chuji/html
+copyroot: 0 /
+
+id: 1v-5.0.r5/4600
+type: file
+count: 0
+text: 2 4092072 358 1150 da7fcdf6e202bf29d0fe0cf8c091a884 0ec9045648dbc65c37ea8761676ea60f9bd8a373 4-4/_1w
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/images/bitbug_favicon.ico
+copyroot: 0 /
+
+id: 11-5.0.r5/4856
+type: file
+count: 0
+text: 4 4639 4612 4624 ce107cb66640f76eec7f99f1f952344e 6adac373aa9bd6ae41fd326fb2e828471af94162 4-4/_12
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/images/ewm.png
+copyroot: 0 /
+
+id: j-5.0.r5/5099
+type: file
+count: 0
+text: 4 188292 1974 2229 7849ddfc71df094c7c6319e138a671cb dc88b235b68165681a0fd2ba71662c07706a93b3 4-4/_l
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/images/ghs.png
+copyroot: 0 /
+
+id: v-5.0.r5/5342
+type: file
+count: 0
+text: 4 0 1630 1891 1a449ac16b83eae8e3ee0c7be42875b1 3191f804a398a564c74d67df020a096e9d6ffba2 4-4/_w
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/images/icon_user.png
+copyroot: 0 /
+
+id: 17-5.0.r5/5586
+type: file
+count: 0
+text: 4 11149 152999 168007 600c16da5f872a049a115c1afe2ca24b b993fc2d4217234eb3512bce08a226254e0d722e 4-4/_18
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/images/mi9.jpg
+copyroot: 0 /
+
+id: x-5.0.r5/5834
+type: file
+count: 0
+text: 4 1643 1316 1596 4762c77d4195df816ecb136a9838d611 d259d52f3f3d90510834abb3f5dc53d861b8bd61 4-4/_y
+props: 2 4132524 53 0 113136892f2137aa0116093a524ade0b
+cpath: /chuji/images/milogo.png
+copyroot: 0 /
+
+PLAIN
+K 18
+bitbug_favicon.ico
+V 19
+file 1v-5.0.r5/4600
+K 7
+ewm.png
+V 19
+file 11-5.0.r5/4856
+K 7
+ghs.png
+V 18
+file j-5.0.r5/5099
+K 13
+icon_user.png
+V 18
+file v-5.0.r5/5342
+K 7
+mi9.jpg
+V 19
+file 17-5.0.r5/5586
+K 10
+milogo.png
+V 18
+file x-5.0.r5/5834
+END
+ENDREP
+id: 6-5.0.r5/6337
+type: dir
+count: 0
+text: 5 6078 246 0 a72bfae4d2d9f4b7010a804092f44604
+cpath: /chuji/images
+copyroot: 0 /
+
+id: m-5.0.r5/6462
+type: file
+count: 0
+text: 4 190279 398 982 29071c70375021efefb19eb3b560eacb 1932c54af73c15991c3824b668c17b5dc26a3c4a 4-4/_n
+cpath: /chuji/js/ahref.json
+copyroot: 0 /
+
+id: 1l-5.0.r5/6647
+type: file
+count: 0
+text: 4 176278 475 885 2b994a1d0e107efc71ee3a0c8931a68d 688d3494ff1ff7dae7edf8678f8a3c4c23492326 4-4/_1m
+cpath: /chuji/js/conment.js
+copyroot: 0 /
+
+id: 1j-5.0.r5/6834
+type: file
+count: 0
+text: 4 174979 1286 2837 21e3c75ac6c8abbf1fde97f0f87e871b 27fbfd639c432dd2611cf5d05dcbbcb62a8ca819 4-4/_1k
+cpath: /chuji/js/country.json
+copyroot: 0 /
+
+id: e-5.0.r5/7025
+type: file
+count: 0
+text: 2 1612941 89058 294745 46639776ff2dc5529e1a49e6898a84ba 954639f7c8a8463ed7c3c9d200b36251cdbf0b0f 4-4/_g
+cpath: /chuji/js/jquery.js
+copyroot: 0 /
+
+id: 1x-5.0.r5/7215
+type: file
+count: 0
+text: 4 181744 4 0 d41d8cd98f00b204e9800998ecf8427e da39a3ee5e6b4b0d3255bfef95601890afd80709 4-4/_1y
+cpath: /chuji/js/login.js
+copyroot: 0 /
+
+id: 1r-5.0.r5/7396
+type: file
+count: 0
+text: 4 179047 533 1771 0565280eb188cedea9a685f7efda8d1d 3df9af7310fb74092a6771f8dbb2d177cdad5936 4-4/_1s
+cpath: /chuji/js/phone.json
+copyroot: 0 /
+
+PLAIN
+K 10
+ahref.json
+V 18
+file m-5.0.r5/6462
+K 10
+conment.js
+V 19
+file 1l-5.0.r5/6647
+K 12
+country.json
+V 19
+file 1j-5.0.r5/6834
+K 9
+jquery.js
+V 18
+file e-5.0.r5/7025
+K 8
+login.js
+V 19
+file 1x-5.0.r5/7215
+K 10
+phone.json
+V 19
+file 1r-5.0.r5/7396
+END
+ENDREP
+id: 7-5.0.r5/7842
+type: dir
+count: 0
+text: 5 7584 245 0 ba9e1e9754557641f24ee1bbb6189ded
+cpath: /chuji/js
+copyroot: 0 /
+
+PLAIN
+K 3
+css
+V 17
+dir 2-5.0.r5/1169
+K 4
+font
+V 17
+dir 4-5.0.r5/3640
+K 4
+html
+V 17
+dir 5-5.0.r5/4477
+K 6
+images
+V 17
+dir 6-5.0.r5/6337
+K 2
+js
+V 17
+dir 7-5.0.r5/7842
+END
+ENDREP
+id: 0-5.0.r5/8139
+type: dir
+count: 0
+text: 5 7963 163 0 2c380a4b1e170946179679fda1df73a8
+cpath: /chuji
+copyroot: 0 /
+
+PLAIN
+K 5
+chuji
+V 17
+dir 0-5.0.r5/8139
+K 9
+home page
+V 20
+dir 0-1.0.r2/4165686
+K 7
+xiaomi7
+V 19
+dir 0-3.0.r3/485024
+END
+ENDREP
+id: 0.0.r5/8384
+type: dir
+pred: 0.0.r4/203349
+count: 5
+text: 5 8257 114 0 1a0f51c9f7c0316ebcf72dd68f68e01d
+cpath: /
+copyroot: 0 /
+
+_0.0.t4-4 add-dir false false /chuji
+
+_2.0.t4-4 add-dir false false /chuji/css
+
+_1p.0.t4-4 add-file true false /chuji/css/bootstrap.css
+
+_1t.0.t4-4 add-file true false /chuji/css/iconfont.css
+
+_1h.0.t4-4 add-file true false /chuji/css/login.css
+
+_b.0.t4-4 add-file true false /chuji/css/register.css
+
+_1b.0.t4-4 add-file true false /chuji/css/respwd.css
+
+_4.0.t4-4 add-dir false false /chuji/font
+
+_15.0.t4-4 add-file true false /chuji/font/demo.css
+
+_1d.0.t4-4 add-file true false /chuji/font/demo_index.html
+
+_t.0.t4-4 add-file true false /chuji/font/iconfont.css
+
+_o.0.t4-4 add-file true true /chuji/font/iconfont.eot
+
+_8.0.t4-4 add-file true false /chuji/font/iconfont.js
+
+_19.0.t4-4 add-file true false /chuji/font/iconfont.svg
+
+_13.0.t4-4 add-file true true /chuji/font/iconfont.ttf
+
+_1f.0.t4-4 add-file true true /chuji/font/iconfont.woff
+
+_h.0.t4-4 add-file true true /chuji/font/iconfont.woff2
+
+_5.0.t4-4 add-dir false false /chuji/html
+
+_z.0.t4-4 add-file true false /chuji/html/login.html
+
+_1n.0.t4-4 add-file true false /chuji/html/register.html
+
+_q.0.t4-4 add-file true false /chuji/html/resPwd.html
+
+_6.0.t4-4 add-dir false false /chuji/images
+
+_1v.0.t4-4 add-file true true /chuji/images/bitbug_favicon.ico
+
+_11.0.t4-4 add-file true true /chuji/images/ewm.png
+
+_j.0.t4-4 add-file true true /chuji/images/ghs.png
+
+_v.0.t4-4 add-file true true /chuji/images/icon_user.png
+
+_17.0.t4-4 add-file true true /chuji/images/mi9.jpg
+
+_x.0.t4-4 add-file true true /chuji/images/milogo.png
+
+_7.0.t4-4 add-dir false false /chuji/js
+
+_m.0.t4-4 add-file true false /chuji/js/ahref.json
+
+_1l.0.t4-4 add-file true false /chuji/js/conment.js
+
+_1j.0.t4-4 add-file true false /chuji/js/country.json
+
+_e.0.t4-4 add-file true false /chuji/js/jquery.js
+
+_1x.0.t4-4 add-file true false /chuji/js/login.js
+
+_1r.0.t4-4 add-file true false /chuji/js/phone.json
+
+0-4.0.r4/203096 delete-dir false false /xiaomi
+
+
+8384 8515
